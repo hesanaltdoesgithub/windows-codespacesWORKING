@@ -28,4 +28,4 @@ click the link that says windows 11
 8. type `ls`
 9. then type `cd Downloads` make sure the "D" for the Dowloads is capitalized
 10. then type `df -h` after that type `qemu-img create disk.img 10G`
-11. in the emulator terminal first type `cd Downloads` then type `ls` copy the windows iso name then type `qemu-system-x86-64 --enable-kvm -m 4G -smp 2 -pflash /usr/share/OVMF/OVMF_CODE.fd -hdd disk.img - cdrom drive Win11_22H2_English_x64v2.iso`
+11. in the emulator terminal first type `cd Downloads` then type `ls` copy the windows iso name then type `qemu-system-x86-64 --enable-kvm -m 4G -smp 2 -pflash /usr/share/OVMF/OVMF_CODE.fd -hdd disk.img -cdrom drive Win11_22H2_English_x64v2.iso`
